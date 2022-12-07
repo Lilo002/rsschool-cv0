@@ -1,5 +1,6 @@
 # ***Liza Basarab***
 
+
 ## *Contacts*
 Email: lisabasarab@gmail.com
 Phone: 80336295732
@@ -12,7 +13,8 @@ I've been learning Css and HTML for 1 month.
 
 ## *Code example*
 
-``` const hamburger = 3;
+``` 
+const hamburger = 3;
 const fries = 1;
 const cola = 1;
 
