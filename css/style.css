@@ -1,0 +1,176 @@
+html {
+    scroll-behavior: smooth; 
+  }
+
+body {
+    font-family: 'Playfair Display', serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color:#008B8B;
+}
+
+a:visited {
+    color: #086666;
+}
+
+h1 {
+    text-align: center; 
+    font-size: 48px;
+    font-style: italic;
+    text-transform: uppercase;
+    color:#042525
+}
+
+.header{
+    background-color: #008B8B;
+}
+
+.container {
+    display: block;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: 400;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #a9dada;
+    transition: .3s;
+    
+}
+
+a.nav-link:visited {
+    color: #a9dada;
+}
+
+.profile-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.base-line {
+    border: 3px solid #86aaaa;
+    width: 1440px;
+}
+
+.section {
+    width: 50%;
+}
+
+.section-profile {
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 30px 0 30px 0;
+}
+
+
+
+.section-title { 
+    font-size: 24px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+
+
+.section-list {
+    padding-left: 0;
+}
+
+.section-item {
+    position: relative;
+    padding-left: 30px;
+    list-style-type: none;
+}
+
+.section-item::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    width: 8px;
+    height: 8px; 
+    border: 2px solid #15523d;
+    border-radius: 100%;
+}
+
+.footer {
+    display: block;
+    background-color: #008B8B;
+}
+
+.footer-item1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.footer-item2 {
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.footer-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+}
+
+.img-school {
+    width: 70px;
+}
+
+.github-link {
+    margin: 0 0 0 10px; 
+    color: #a9dada;  
+}
+
+a.github-link:visited {
+    color: #a9dada;
+}
+
+.year {
+    margin: 0 auto;
+    color: #a9dada;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+    .base-line {
+        width: 100%;
+    }
+  }
+
+
+
+
