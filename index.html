@@ -5,23 +5,125 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cv</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="assets/ico/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">english</a></li>
+                </ul>
+            </div>
+        </nav>
+        
     </header>
 
-    <main>
+    <main class="main">
+        <div class="container main-container">
+            <section class="profile" id="profile">
+                <div class="container container-profile">
+                    <img class="profile-photo" src="assets/img/IMG_5884.JPG" alt="Profile photo">
+                    <h1 class=".section-title">Liza Basarab</h1>
+                </div>
+            </section>
+    
+            <section class="contacts" id="contacts">
+                <div class="container">
+                    <h2 class=".section-title">Contacts</h2>
+                        <ul>
+                            <li>Minsk, Belarus</li>
+                            <li>Email: lisabasarab@gmail.com</li>
+                            <li>Phone: 80336295732</li>
+                            <li>Github: <a href="https://github.com/Lilo002">Lilo002</a> </li>
+                        </ul>
+                </div>
+            </section>
 
+            <section class="summary" id="summary">
+                <div class="container">
+                    <h2 class="section-title">Summary</h2>
+                    <p class="summary-description">I am 26 y.o. I am a doctor. But recently realise that I want to learn something as difficult as medicine. That's why I'm here. </p>
+                </div>
+            </section>
+
+            <section class="skills" id="skills">
+                <div class="container">
+                    <h2 class="section-title">Skills</h2>
+                    <ul class="Skills-list">
+                        <li class="skills-item">HTML</li>
+                        <li class="skills-item">CSS(SASS)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="code" id="code">
+                <div class="container">
+                    <h2 class="section-title">Code</h2>
+                    <p class="code-example">
+                        <code>
+                            const hamburger = 3;<br>
+                            const fries = 1;<br>
+                            const cola = 1;<br>
+                            
+                            if (hamburger >= 3 && fries === 1 && cola === 1) {<br>
+                                console.log('Everyone is full!');<br>
+                            } else {<br>
+                                console.log('We are leaving!');<br>
+                            } <br>
+                        </code>
+                    </p>
+                </div>
+            </section>
+
+            <section class="courses" id="courses">
+                <div class="container">
+                    <h2 class="section-title">Courses</h2>
+                    <ul class="courses-list">
+                        <li class="courses-item">Udemy: <a class="courses-item-link" href="https://www.udemy.com/course/webdeveloper/">Web-development by Petrichenko</a></li>
+                        <li class="courses-item">Udemy: <a class="courses-item-link" href="https://www.udemy.com/course/javascript_full/">JS+React by Petrichenko</a></li>
+
+                    </ul>
+                </div>
+            </section>
+
+            <section class="projects" id="projects">
+                <div class="container">
+                    <h2 class="section-title">Projects</h2>
+                    <a class="project-link" href="https://github.com/Lilo002/Lilo002.github.io">Educational project on Udemy</a>
+                </div>
+            </section>
+
+            <section class="education" id="education">
+                <div class="container">
+                    <h2 class="section-title">Education</h2>
+                    <p class="Education-description" >Belarusian State Medical University</p>
+
+                </div>
+            </section>
+            
+            <section class="english" id="english">
+                <div class="container">
+                    <h2 class="section-title">English</h2>
+                    <p class="English-level">B1-Intermediate</p>
+                </div>
+            </section>
+        </div>
     </main>
 
-    <footer>
-
+    <footer class="footer">
+        <div class="container"></div>
     </footer>
 </body>
 </html>
