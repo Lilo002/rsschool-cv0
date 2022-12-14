@@ -67,16 +67,9 @@ a.nav-link:visited {
     border-radius: 100%;
 }
 
-.main-container {
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
 .base-line {
     display: block;
     border: 3px solid #86aaaa;
-    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -84,7 +77,7 @@ a.nav-link:visited {
     width: 50%;
 }
 
-.section-profile {
+.profile-main {
     display: flex; 
     justify-content: space-around;
     align-items: center;
