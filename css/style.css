@@ -74,8 +74,10 @@ a.nav-link:visited {
 }
 
 .base-line {
+    display: block;
     border: 3px solid #86aaaa;
-    width: 1440px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .section {
