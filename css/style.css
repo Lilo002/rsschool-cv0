@@ -86,10 +86,12 @@ a.nav-link:visited {
     display: flex; 
     justify-content: space-around;
     align-items: center;
-    width: 100%;
     margin: 30px 0 30px 0;
 }
 
+.section-profile {
+    width: 100%;
+}
 
 
 .section-title { 
