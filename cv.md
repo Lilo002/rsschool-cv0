@@ -10,7 +10,8 @@ Phone: 80336295732
 I am 26 y.o. I am a doctor. But recently realise that I want to learn something as difficult as medicine. That's why I'm here. 
 
 ## *Skills*
-I've been learning Css and HTML for 1 month.
+I've been learning Css and HTML for 3 month / js for 2 month
+
 
 ## *Code example*
 
