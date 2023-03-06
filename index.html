@@ -47,6 +47,7 @@
                     <li class="section-item contacts-item">Email: lisabasarab@gmail.com</li>
                     <li class="section-item contacts-item">Phone: 80336295732</li>
                     <li class="section-item contacts-item">Github: <a href="https://github.com/Lilo002">Lilo002</a> </li>
+                    <li class="section-item contacts-item">lilo#4027</li>
                 </ul>
             </section>
 
@@ -60,23 +61,35 @@
                 <ul class="section-list skills-list">
                     <li class="section-item skills-item">HTML</li>
                     <li class="section-item skills-item">CSS(SASS)</li>
+                    <li class="section-item skills-item">Git</li>
+                    <li class="section-item skills-item">Js (basic)</li>
                 </ul>
             </section>
 
             <section class="section section-code" id="code">
                 <h2 class="section-title code-title">Code</h2>
                 <p class="code-example">
-                    <code>
-                        const hamburger = 3;<br>
-                        const fries = 1;<br>
-                        const cola = 1;<br>
-                        
-                        if (hamburger >= 3 && fries === 1 && cola === 1) {<br>
-                            console.log('Everyone is full!');<br>
-                        } else {<br>
-                            console.log('We are leaving!');<br>
-                        } <br>
-                    </code>
+                    <pre>
+                        <code>
+function getTime() {
+    const now = new Date(),
+            currentTime = now.toLocaleTimeString('en-GB'),
+            timer = document.querySelector('.time');
+    timer.textContent = currentTime;
+    setTimeout(getTime, 1000);      
+    }
+
+function getFullDate() {
+    const options = {
+        weekday: 'long',
+        month: 'long', 
+        day: 'numeric' 
+    };
+    const now = new Date();
+    date.textContent = `${now.toLocaleDateString(userLang, options)}`;
+} 
+                        </code>
+                    </pre>
                 </p>
             </section>
 
