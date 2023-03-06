@@ -20,7 +20,7 @@ body {
 }
 
 .main-container {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.65);
 }
 
 a {
@@ -151,7 +151,7 @@ h1 {
     list-style-type: none;
 }
 
-.section-item::before {
+/* .section-item::before {
     content: "";
     position: absolute;
     top: 6px;
@@ -160,7 +160,29 @@ h1 {
     height: 8px; 
     border: 2px solid #ffffff86;
     border-radius: 100%;
+} */
+
+.home::before {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 2px;
+    left: 8px;
+    content: "";
+    background-image: url('../assets/ico/home.png');
+    background-size: 15px 15px;
 }
+
+.email::before {
+    position: absolute;
+    width: 17px;
+    height: 16px;
+    top: 2px;
+    left: 7px;
+    content: "";
+    background-image: url('../assets/ico/email.png');
+    background-size: 17px 17px;
+} 
 
 .footer {
     display: block;
@@ -203,9 +225,20 @@ h1 {
     }
 
     code {
-        text-align: 10px;
+        font-size: 10px;
     }
 }    
+
+
+@media (max-width: 440px) {
+    .section {
+      width: 100%;
+    }
+
+    code {
+        font-size: 7px;
+    }
+}   
 
   
 
