@@ -74,21 +74,21 @@
                     <pre>
                         <code>
 function getTime() {
-    const now = new Date(),
-            currentTime = now.toLocaleTimeString('en-GB'),
-            timer = document.querySelector('.time');
-    timer.textContent = currentTime;
-    setTimeout(getTime, 1000);      
-    }
+  const now = new Date(),
+        currentTime = now.toLocaleTimeString('en-GB'),
+        timer = document.querySelector('.time');
+  timer.textContent = currentTime;
+  setTimeout(getTime, 1000);      
+}
 
 function getFullDate() {
-    const options = {
-        weekday: 'long',
-        month: 'long', 
-        day: 'numeric' 
-    };
-    const now = new Date();
-    date.textContent = `${now.toLocaleDateString(userLang, options)}`;
+  const options = {
+    weekday: 'long',
+    month: 'long', 
+    day: 'numeric' 
+  };
+  const now = new Date();
+  date.textContent = `${now.toLocaleDateString(usLg, options)}`;
 } 
                         </code>
                     </pre>

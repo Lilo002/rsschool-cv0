@@ -29,7 +29,7 @@ a {
 }
 
 code {
-    font-size: 15px;
+    font-size: 13px;
 }
 
 a:visited {
@@ -294,24 +294,31 @@ h1 {
     margin: 0 auto;
 }
 
-@media (max-width: 768px) {
-    .section {
-      width: 100%;
+@media (max-width: 1000px) {
+    code {
+        font-size: 11px;
     }
+}   
 
+@media (max-width: 840px) {
+    code {
+        font-size: 14px;
+    }
+    .section {
+        width: 100%;
+    }
+}   
+
+@media (max-width: 560px) {
     code {
         font-size: 10px;
     }
-}    
+}  
 
 
 @media (max-width: 440px) {
-    .section {
-      width: 100%;
-    }
-
     code {
-        font-size: 7px;
+        font-size: 8px;
     }
 }   
 
