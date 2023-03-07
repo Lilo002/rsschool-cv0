@@ -249,10 +249,6 @@ h1 {
     background-size: 21px 21px;
 }
 
-.course-item-nondone {
-    display: inline;
-}
-
 .course-item-nondone::before {
     position: absolute;
     width: 21px;
@@ -353,6 +349,7 @@ h1 {
 
     .header {
         padding-top: 0;
+        z-index: 2;
     }
 
     .nav-link {
